@@ -1,0 +1,19 @@
+{
+  "name": "pedidos_marmitaria",
+  "version": "1.0.0",
+  "description": "Simular um sistema de pedidos para balcão de uma marmitaria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberto-mazor/pedidos_marmitaria.git"
+  },
+  "author": "Roberto Mazor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roberto-mazor/pedidos_marmitaria/issues"
+  },
+  "homepage": "https://github.com/roberto-mazor/pedidos_marmitaria#readme"
+}

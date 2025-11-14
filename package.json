@@ -4,7 +4,9 @@
   "description": "Simular um sistema de pedidos para balcão de uma marmitaria",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/roberto-mazor/pedidos_marmitaria/issues"
   },
-  "homepage": "https://github.com/roberto-mazor/pedidos_marmitaria#readme"
+  "homepage": "https://github.com/roberto-mazor/pedidos_marmitaria#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }

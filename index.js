@@ -48,10 +48,10 @@ app.get("/marmitas", (req,res) => {
     res.send("marmitas")
 })
 
-// app.get("/cardapio/:id", (req,res) => {
-//     const id = req.params.id
-//     res.send(cardapio[id -1])
-// })
+app.get("/cardapio/:id", (req,res) => {
+    const id = req.params.id
+    res.send(cardapio[id -1])
+})
 
 // app.get('/cardapio/inserir', (req,res) => {
 //     const produto = req.query.produto.trim()
